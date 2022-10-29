@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookstore</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div class="header-1">
+        <a href="index.html" class="logo">
+          <i class="fas fa-book"></i> Daily Books
+        </a>
+
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Search over 15 million products..."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="category.html">Category</a>
+          <a href="#mybooks">My books</a>
+          <a href="#blog">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+      <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>password</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>Daily Books</h3>
+          <div class="para">
+            <p>"A day without a book is like a latte without a coffee"</p>
+            <p>Want to get more out of your reading life in 2022?</p>
+            <p>We've got a lot of books for you, and huge discount events.</p>
+          </div>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+
+        <div class="banner">
+          <div class="banner-img"><img src="image/banner.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ense  -->
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+          <h3>free shipping</h3>
+          <p>order over $100</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+          <h3>secure payment</h3>
+          <p>100 secure payment</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+          <h3>easy returns</h3>
+          <p>10 days returns</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+          <h3>24/7 support</h3>
+          <p>call us anytime</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Best sellers</span></h1>
+
+      <div class="best-sellers">
+        <div class="box">
+          <div>
+            <div class="book-img"><img src="image/book1.png" alt="" /></div>
+            <div class="content">
+              <h3>The stranger in the lifeboat</h3>
+              <div><span>by Mitch Albom</span></div>
+              <div><span>$24.39</span></div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+          <div>
+            <div class="book-img"><img src="image/book2.png" alt="" /></div>
+            <div class="content">
+              <h3>Go tell the bees that I am gone</h3>
+              <div><span>by Diana Gabaldon</span></div>
+              <div><span>$30.49</span></div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+          <div>
+            <div class="book-img"><img src="image/book3.png" alt="" /></div>
+            <div class="content">
+              <h3>Atlas of the Heart: Mapping</h3>
+              <div><span>by Brene Brown</span></div>
+              <div><span>$28.22</span></div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="book4">
+            <div class="book-img"><img src="image/book4.png" alt="" /></div>
+            <div class="content">
+              <h3>Burning questions: Essays</h3>
+              <div><span>by Margaret Atwood</span></div>
+              <div><span>$36.95</span></div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+          <div class="book5">
+            <div class="book-img"><img src="image/book5.png" alt="" /></div>
+            <div class="content">
+              <h3>Lessons in chemistry</h3>
+              <div><span>by Bonnie Garmus</span></div>
+              <div><span>$20.32</span></div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+      <div class="content">
+        <h3>deal of the day</h3>
+        <h1>Great Reads for 2022</h1>
+        <p>
+          The newest suspense novel from the authors behind The Wife Between Us
+          introduces us to Jessica Ferris
+        </p>
+        <a href="#" class="btn">View more</a>
+      </div>
+
+      <div class="image">
+        <img src="image/discount.png" alt="" />
+      </div>
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Our Locations</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Korea </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Japan </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Canada </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> China </a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> About </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Category </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> My books </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Blog </a>
+        </div>
+
+        <div class="box">
+          <h3>Customer Service</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Help </a>
+          <a href="#">
+            <i class="fas fa-arrow-right"></i> Shipping & Returns
+          </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Covid-19 FAQ </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Product Recalls </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Events </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> seyeonjo@gmail.com </a>
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">
+        <p>© 2022 Dailybooks. All rights reserved.</p>
+      </div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
